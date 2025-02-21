@@ -1,0 +1,70 @@
+.title-of-mathematicians {
+  margin: 25px 0;
+  text-align: center;
+  font-size: 2.5vw;
+}
+.all-mathematicians-information {
+  column-gap: 10px;
+  columns: 3;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px !important;
+
+  .mathematician {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--border-color);
+    break-inside: avoid;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    &:first-child {
+      margin-top: 0 !important;
+    }
+
+    h1 {
+      font-size: 23px;
+    }
+
+    img {
+      height: 200px;
+      width: auto;
+      margin: 10px 0;
+    }
+
+    .moreInfo {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .achievement {
+      text-align: left;
+      margin-bottom: 10px;
+
+      strong {
+        font-size: 18px;
+      }
+    }
+
+    .nobelWorks {
+      width: 100%;
+
+      li {
+        list-style: disc inside;
+      }
+
+      strong {
+        font-size: 18px;
+      }
+    }
+
+    .awards,
+    .legacy {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
