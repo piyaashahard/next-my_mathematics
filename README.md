@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **My Mathematics**
 
-## Getting Started
+Welcome to **My Mathematics Educational Website**, a platform designed to help students prepare for mathematics Olympiads. This website provides a comprehensive collection of resources, including question banks, solutions, and tutorials tailored for aspiring problem solvers.
 
-First, run the development server:
+This **Full Stack Educational Website** is created by **Shreyan Dey** and beautifully designed by **Emam Hossain Miraj**. It features animated lessons to enhance learning and ensure a seamless educational experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Features**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 📚 **Question Banks**: Explore categorized questions from various mathematics Olympiads.
+- 🎯 **Level-wise Resources**: Find resources and questions tailored for Primary, Junior, Secondary, and Higher Secondary levels.
+- 🗳️ **Solutions & Tutorials**: Get step-by-step solutions and detailed explanations for Olympiad problems.
+- 🔍 **Search Functionality**: Quickly locate resources and questions by topics or keywords.
+- 🌐 **Interactive Platform**: Experience a user-friendly interface designed for seamless learning.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Subjects Covered**
 
-## Learn More
+This platform provides resources on a variety of mathematical topics:
 
-To learn more about Next.js, take a look at the following resources:
+- **Algebra**: Inequalities, Polynomials, Equations, Recurrence Relations, Sequences, and more.
+- **Number Theory**: Divisibility, Modular Arithmetic, Remainder Theorem, Diophantine Equations, and more.
+- **Geometry**: Triangles, Circles, Polygons, Coordinate & Vector Geometry, Euler Line, and more.
+- **Combinatorics**: Permutations, Combinations, Binomial Theorem, Pigeonhole Principle, Graph Theory, and more.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## **Technologies Used**
 
-## Deploy on Vercel
+- **Next.js**: For building a dynamic and responsive user interface.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Frontend**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Tailwind CSS**: For modern, responsive styling.
+- **Framer Motion**: For creating smooth animations.
+- **Email JS**: For integrating contact forms.
+
+### **Backend**
+
+- **Node.js**: For building the server-side logic.
+- **Express.js**: For creating API endpoints and handling requests.
+- **JSON Web Token (JWT)**: For secure authentication and session management.
+- **Multer**: For handling file uploads.
+- **Bcrypt.js**: For encrypting passwords.
+- **Cors**: For managing cross-origin resource sharing.
+
+### **Database**
+
+- **MongoDB**: A NoSQL database for efficient data storage and retrieval.
+
+### **Additional Tools**
+
+- **Webpack**: For bundling frontend resources.
+- **Babel**: For JavaScript transpilation and compatibility.
+- **ESLint**: For code linting and ensuring code quality.
+
+---
+
+## **Contact Us**
+
+For inquiries, feedback, or collaborations, feel free to reach out through the following channels:
+
+- **Email**: [shreyandeyrudra@gmail.com](mailto:shreyandeyrudra@gmail.com)
+- **WhatsApp**: [Message us on WhatsApp](https://wa.me/+8801818927655)
+- **Social Media**:
+  - [Facebook](https://www.facebook.com/shreyan1729)
+  - [Twitter](https://x.com/ShreyanDey1729)
+  - [Instagram](https://www.instagram.com/shreyan1729)
+  - [LinkedIn](https://www.linkedin.com/in/shreyan-dey-72968b342/)
+
+---
