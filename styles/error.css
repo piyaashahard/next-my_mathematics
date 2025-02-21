@@ -1,0 +1,43 @@
+.Error {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+  }
+  h2 {
+    font-size: 3.5vw;
+  }
+  p {
+    margin: 15px 0;
+    margin-bottom: 30px !important;
+  }
+  a {
+    font-size: 18px;
+    background-color: #044293;
+    padding: 15px 25px;
+    border-radius: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 150px;
+
+    span {
+      margin-top: 5px;
+      transition: all 0.2s;
+      margin-right: 7px;
+    }
+
+    &:hover {
+      color: var(--text-light);
+
+      span {
+        margin-right: 15px;
+      }
+    }
+  }
+}

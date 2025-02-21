@@ -1,0 +1,222 @@
+.privacy-container {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+
+  .privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .privacy-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #085c1c;
+  }
+
+  .last-updated {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .privacy-section {
+    margin-bottom: 20px;
+  }
+
+  .privacy-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .privacy-section p {
+    margin-bottom: 10px;
+  }
+
+  .privacy-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+
+  .privacy-section ul li {
+    margin-bottom: 5px;
+  }
+
+  .privacy-policy a {
+    color: #085c1c;
+    text-decoration: none;
+
+    &:hover {
+      color: #28a745;
+    }
+  }
+}
+
+.about-page-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .about-page {
+    line-height: 1.6;
+    padding: 20px;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #085c1c;
+
+      &:first-child {
+        text-align: center;
+      }
+    }
+
+    .section-description {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .course-category {
+      margin: 20px 0;
+    }
+
+    .category-title {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #4caf50;
+    }
+
+    .category-list {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .features-list,
+    .contact-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .features-list li,
+    .contact-list li {
+      margin-bottom: 10px;
+    }
+
+    .conclusion {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .explore-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #085c1c;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .explore-button:hover {
+      background-color: #28a745;
+    }
+
+    .contact-list a {
+      color: #085c1c;
+      text-decoration: none;
+
+      &:hover {
+        color: #28a745;
+      }
+    }
+  }
+}
+
+.terms-and-condition-page {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .terms-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+    line-height: 1.6;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 15px;
+
+    .terms-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .terms-header h1 {
+      font-size: 2.5rem;
+      color: #085c1c;
+    }
+
+    .terms-header p {
+      font-size: 1.2rem;
+      color: #7f8c8d;
+    }
+
+    .terms-section {
+      margin-bottom: 20px;
+    }
+
+    .terms-section h2 {
+      font-size: 1.8rem;
+      color: #28a745;
+      margin-bottom: 10px;
+    }
+
+    .terms-section p,
+    .terms-section ul {
+      font-size: 1rem;
+    }
+
+    .terms-section ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .terms-footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1rem;
+      color: #95a5a6;
+    }
+
+    .terms-footer a {
+      color: #28a745;
+      text-decoration: none;
+    }
+
+    .terms-footer a:hover {
+      text-decoration: underline;
+    }
+  }
+}
