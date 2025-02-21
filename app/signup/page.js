@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useRouter } from "next/navigation"; // Updated import
+import { useRouter } from "next/navigation";
 
 import { MdDriveFileRenameOutline } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
@@ -15,7 +15,13 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [isAuthorized, setIsAuthorized] = useState(null); // Authorization check
+  const [isLoading, setIsLoading] = useState(false); // Loading state for button
   const router = useRouter();
+
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : process.env.BASE_URL || "http://localhost:3000";
 
   useEffect(() => {
     // Check if user already exists in localStorage
@@ -24,6 +30,11 @@ const Signup = () => {
   }, []);
 
   const handleSignup = async () => {
+    if (!name || !email || !password) {
+      alert("Please fill out all fields.");
+      return;
+    }
+
     try {
       const response = await axios.post("/api/auth/signup", {
         name,
@@ -31,8 +42,6 @@ const Signup = () => {
         password,
       });
       alert(response.data.message);
-
-      // Redirect to login page after successful signup
       router.push("/login");
     } catch (error) {
       alert(error.response?.data?.error || "Signup failed. Please try again.");
@@ -58,7 +67,7 @@ const Signup = () => {
               onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name"
             />
-            <label htmlFor="input">Name:</label>
+            <label>Name:</label>
           </div>
 
           <div className="form-input">
@@ -69,7 +78,7 @@ const Signup = () => {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
             />
-            <label htmlFor="input">Email:</label>
+            <label>Email:</label>
           </div>
 
           <div className="form-input">
@@ -80,10 +89,12 @@ const Signup = () => {
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Enter your password"
             />
-            <label htmlFor="input">Password:</label>
+            <label>Password:</label>
           </div>
 
-          <button onClick={handleSignup}>Signup</button>
+          <button onClick={handleSignup} disabled={isLoading}>
+            {isLoading ? "Signing up..." : "Signup"}
+          </button>
 
           <p>
             Already have an account in My_Mathematics?{" "}
