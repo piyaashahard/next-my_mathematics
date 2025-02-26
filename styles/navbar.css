@@ -6,6 +6,13 @@
   background-color: transparent;
   top: 0;
 
+  &.fixed {
+    position: fixed;
+    width: 90%;
+    z-index: 10000;
+    background-color: #fff;
+  }
+
   .logo {
     display: flex;
     align-items: center;

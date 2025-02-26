@@ -1,3 +1,6 @@
+.margin-top {
+  margin-top: 90px;
+}
 .Error {
   text-align: center;
   display: flex;
@@ -5,8 +8,6 @@
   justify-content: center;
   flex-direction: column;
 
-  h1 {
-  }
   h2 {
     font-size: 3.5vw;
   }
